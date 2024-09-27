@@ -1,0 +1,241 @@
+@media (max-width: 1024px){
+    .symp .block h4{
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        color: rgb(255, 63, 63);
+        font-weight: 500;
+      }
+      .symp .block h2{
+        font-weight: 700;
+        font-size: 25px;
+        color: rgb(69, 69, 69);
+      }
+      .symp .block p{
+        font-size: 14px;
+        font-weight: 500;
+        color: grey;
+      }
+      .main3{
+        height: 130%;
+      }
+      .main3 h1{
+        text-align: center;
+        font-size: 25px;
+        letter-spacing: 2px;
+      }
+      .main3 h3{
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        color: red;
+        margin-top: 10px;
+        font-size: 12px;
+      }
+      .main5 {
+        height: 130vh;
+        width: 100%;
+        padding: 6rem 6rem;
+      }
+      .form input {
+        width: 100%;
+      }
+      .form select {
+        width: 100%;
+      }
+      .main-6{
+        height: 130vh;
+        padding: 6rem 6rem;
+      }
+}
+@media (max-width: 992px) {
+  .box {
+    grid-template-columns: 1fr;
+    grid-gap: 50px;
+  }
+  .imgWrapper{
+    display: none;
+  }
+  .box .contentWrapper {
+    padding-left: 10px;
+  }
+  .main3{
+    height: 100%;
+  }
+  .symp .block h4{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: rgb(255, 63, 63);
+    font-weight: 500;
+    font-size: 14px;
+  }
+  .symp .block h2{
+    font-weight: 700;
+    font-size: 22px;
+    color: rgb(69, 69, 69);
+  }
+  .symp .block p{
+    font-size: 12px;
+    font-weight: 500;
+    color: grey;
+  }
+
+  .main-4 .pre{
+    grid-template-columns: repeat(4,1fr);
+    place-content: center;
+    gap: 50px;
+  }
+  .form input {
+    width: 100%;
+  }
+  .form select {
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .box {
+    width: 90%;
+  }
+  .box .contentWrapper h2 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  .box .contentWrapper p {
+    line-height: 24px;
+  }
+  .img{
+    display: none;
+  }
+  .box-2{
+    width: 100%;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    gap: 0px;
+  }
+  .symp .block:nth-child(2){
+    margin: 0%;
+  }
+  .main-4{
+    height: 70vh;
+    padding: 50px;
+  }
+  .main-4 .pre{
+    grid-template-columns: repeat(2,1fr);
+    place-content: center;
+    gap: 20px;
+    column-gap: 100px;
+  }
+  .main-4 h3{
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+  }
+  .main-4 h1{
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    font-size: 30px;
+  }
+  .main5 .contact {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(127, 255, 212, 0);
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+  }
+  #me li a {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+  }
+  .form input {
+    width: 100%;
+  }
+  .form select {
+    width: 100%;
+  }
+}
+@media (max-width: 576px) {
+  .box .contentWrapper span.textWrapper {
+    font-size: 18px;
+  }
+  .box .contentWrapper h2 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .box .contentWrapper p {
+    font-size: 15px;
+    line-height: 22px;
+  }
+  .box .contentWrapper a{
+    font-size: 15px;
+    padding: 10px 20px;
+  }
+  .main-4 .pre{
+    grid-template-columns: repeat(2,1fr);
+    place-content: center;
+    gap: 50px;
+  }
+  .main-4 .pre img{
+    width: 100px;
+  }
+  .main-4 h3{
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+  }
+  .main-4 h1{
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    font-size: 25px;
+  }
+  .main5 {
+    height: 140vh;
+    width: 100%;
+    padding: 2rem 2rem;
+  }
+  .main5 .contact {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(127, 255, 212, 0);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .main5 h2{
+    text-align: center;
+  }
+  .main3{
+    height: 90vh;
+  }
+  .main-6 {
+    height: 170vh;
+    width: 100%;
+    padding: 2rem 2rem;
+  }
+  .main-6 .food {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(127, 255, 212, 0);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+@media(max-width: 767px){
+  .footer-colll{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-colll{
+    width: 100%;
+}
+}
