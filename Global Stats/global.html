@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covid-19(Global Stats)</title>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="global.css" />
+  </head>
+  <body>
+    <div class="global">
+      <h1>Covid-19 Global Stats</h1>
+      <p>Cases: <span id="cases"></span></p>
+      <p>Deaths: <span id="deaths"></span></p>
+      <p>Recovered: <span id="recovered"></span></p>
+    </div>
+    <script>
+      const apiUrl = "https://disease.sh/v3/covid-19/all";
+
+      async function fetchGlobalData() {
+        const response = await fetch(apiUrl);
+        const data = await response.json();
+        document.getElementById("cases").innerText =
+          data.cases.toLocaleString();
+        document.getElementById("deaths").innerText =
+          data.deaths.toLocaleString();
+        document.getElementById("recovered").innerText =
+          data.recovered.toLocaleString();
+      }
+
+      fetchGlobalData();
+      
+    </script>
+  </body>
+</html>
