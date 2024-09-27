@@ -1,0 +1,124 @@
+body {
+  position: relative;
+}
+header {
+  height: 55px;
+  width: 100%;
+  background-color: rgb(83, 74, 255);
+  position: fixed;
+  z-index: 99;
+  box-shadow: 0px 0px 4px black;
+}
+
+#bold {
+  font-weight: bold;
+  font-size: 25px;
+}
+#bold b {
+  color: rgb(255, 68, 68);
+}
+#me li a {
+  font-size: 20px;
+  font-weight: bold;
+  color: aliceblue;
+}
+#me li a:hover {
+  color: rgb(255, 59, 59);
+}
+
+.covid {
+  height: 100vh;
+  width: 100%;
+  background-image: url(bgbg.jpg);
+  background-size: cover;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 100px;
+  position: absolute;
+}
+.board {
+  height: 530px;
+  width: 100%;
+  background-color: rgba(255, 166, 0, 0);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding: 20px;
+}
+.box {
+  border: 2px solid rgba(0, 0, 0, 0);
+  padding: 20px;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 2px 2px rgb(39, 39, 39);
+}
+.box h3 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px;
+}
+.card-1 {
+  background-color: #88bfffce;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
+}
+.card-2 {
+  background-color: #ff5353ce;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
+}
+.card-3 {
+  background-color: #ff146ece;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
+}
+.card-4 {
+  background-color: #ff1f1fce;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
+}
+.card-5 {
+  background-color: #38ff48ce;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
+}
+.card-6 {
+  background-color: #ffc70ece;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(5px);
+}
+.sp {
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: bold;
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px black;
+}
+.box i {
+  font-size: 45px;
+  color: #ffffff;
+}
+#me {
+  backdrop-filter: blur(10px);
+}
+#country-select {
+  width: 100%;
+  padding: 5px;
+  margin-top: 50px;
+  border: none;
+  background-color: #ffffff62;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(30px);
+  color: rgb(0, 0, 0);
+  border-radius: 5px;
+  outline: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.526),
+    inset -2px -2px 5px rgba(0, 0, 0, 0.649);
+  font-weight: 600;
+}
